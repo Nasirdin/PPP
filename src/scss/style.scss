@@ -1,0 +1,242 @@
+@import url(../fonts/gilroy/stylesheet.css);
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 10px;
+}
+h1{
+  font-size: 47px;
+  color: #070707;
+}
+h2{
+  font-size: 34px;
+  color: #070707;
+}
+a{
+  text-decoration: none;
+  transition: .5s;
+}
+ul,li{
+  list-style-type: none;
+}
+.container{
+  max-width: 940px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  background: #F6F6F6;
+  .container{
+  }
+  &__nav{
+    padding-top: 30px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    .active{
+      color: #070707;
+      &:hover{
+        transform: none;
+      }
+    }
+    a{
+      color: #828282;
+      &:hover {
+        color: #070707;
+        transform: rotate(370deg);
+      }
+    }
+  }
+}
+.section-1{
+  .container{
+    padding-top: 34px;
+    padding-bottom: 104px;
+    .content{
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 40px;
+      .end{
+        padding-top: 58px;
+        font-weight: 500;
+        margin-right: 26px;
+        word-spacing: -2px;
+        text-align: left;
+      }
+      .vertical{
+        font-size: 16px;
+        transform: rotate(-90deg);
+        height: 21px;
+        margin-top: 57px;
+        margin-right: -24px;
+        .ru{
+          color: #828282;
+          &:hover {
+            color: #070707;
+          }
+        }
+        .eng{
+          color: #070707;
+        }
+      }
+    }
+  }
+}
+.section-2{
+  background: #F6F6F6;
+  .container{
+    padding-top: 113px;
+    padding-bottom: 107px;
+    .content{
+      margin: 0 auto;
+      font-weight: 500;
+      width: 485px;
+      p{
+        word-spacing: -2px;
+      }
+      .p-1{
+        margin-top: 24px;
+      }
+      .p-2{
+        margin-top: 43px;
+      }
+      .p-3{
+        margin-top: 45px;
+      }
+    }
+  }
+}
+.section-3{
+  .container{
+    padding-top: 88px;
+    padding-bottom: 110px;
+    .content{
+      .p-69{
+        margin-top: 58px;
+        word-spacing: -2px;
+        margin-bottom: 88px;
+        font-weight: 500;
+      }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+          p{
+            margin-top: 15px;
+            font-size: 14px;
+            color: #828282;
+          }
+          .figma{
+            margin-top: 53px;
+          }
+          ul{
+            width: 162px;
+            margin-top: 37px;
+            li{}
+          }
+        }
+      }
+    }
+  }
+}
+.section-4{
+  background-color: #F6F6F6;
+  .container{
+    padding-top: 108px;
+    padding-bottom: 96px;
+    h2{
+      margin-bottom: -44px;
+    }
+    ul{
+      li{
+        a{
+          img{
+            margin-top: 99px;
+            margin-bottom: 37px;
+            width: 100%;
+            &:nth-child(3){
+              margin-top: 106px;
+            }
+          }
+          &:nth-child(2){
+            text-decoration: underline;
+            color: #070707;
+            font-weight: 500;
+            word-spacing: -2px;
+          }
+          &:hover{
+            color: #828282;
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  .container{
+    padding-top: 114px;
+    padding-bottom: 115px;
+    .content{
+      h2{
+        margin-bottom: 20px;
+      }
+      p{
+        font-weight: 500;
+      }
+      .text{
+        margin-bottom: 44px;
+        word-spacing: -2px;
+      }
+      .btn{
+        padding: 11px 29px;
+        background: #070707;
+        color: #fff;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        border-radius: 60px;
+        transition: .5s;
+        &:hover{
+          background-color: #828282;
+          color: #070707;
+        }
+      }
+      small{
+        color: #828282;
+        line-height: 24px;
+      }
+      ul{
+        margin: 96px auto 37px auto;
+        width: 342px;
+        display: flex;
+        justify-content: space-between;
+        li{
+          a{
+            img{
+              transition: .5s;
+              &:hover{
+                transform: rotate(740deg);
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile
